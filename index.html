@@ -16,38 +16,23 @@
     <meta name="keywords" content="智能巨构-IntelMacro" />
     <meta name="description" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
     <title>智能巨构-IntelMacro</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/qd.css" />
+    <link rel="icon" type="image/png" href="pic/logo0.ico" />
+    <!-- 移动到head标签内部 -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </head>
-  <link rel="icon" type="image/png" href="pic/logo0.ico" />
   <body>
     <div style="text-align: center">
       <img src="pic/logo1.jpg" alt="Abossss" width="100" height="100" />
-
       <div id="typewriter"></div>
-      <script>
-        const text =
-          "看似不起波澜的日复一日，一定会在某一天，让你看到坚持的意义。";
-        let index = 0;
-        let char;
-        let element = document.getElementById("typewriter");
-
-        function type() {
-          char = text.charAt(index);
-          element.innerHTML += char;
-          index++;
-          if (index < text.length) {
-            setTimeout(type, 150); // 更改此值以调整打字速度
-          }
-        }
-
-        type();
-      </script>
-
+      <!-- 这里将用于显示打字机效果 -->
+      <script type="text/javascript" src="js/typewriter.js"></script>
+      <!-- 确保这个脚本文件已经包含了打字机效果的实现 -->
       <p>你好</p>
       <p>我是Abossss</p>
-      <p class="qd">这里是智能巨构-IntelMacroa官方（正在建设中）</p>
+      <p class="qd">这里是智能巨构-IntelMacro官方（正在建设中）</p>
+      <!-- 注意修正了类名末尾多了一个'a' -->
       <p>欢迎访问</p>
       <p>本博客由<a href="https://github.com/">GitHub</a>托管</p>
     </div>
