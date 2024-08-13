@@ -14,27 +14,66 @@
       content="black-translucent"
     />
     <meta name="keywords" content="智能巨构-IntelMacro" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="智能巨构-IntelMacro官方网站（正在建设中），提供最新的技术动态和产品信息。"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>智能巨构-IntelMacro</title>
     <link rel="stylesheet" type="text/css" href="css/qd.css" />
+    <link rel="stylesheet" type="text/css" href="css/typewriter.css" />
+    <link rel="stylesheet" type="text/css" href="css/typewriter-frame.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
     <link rel="icon" type="image/png" href="pic/logo0.ico" />
-    <!-- 移动到head标签内部 -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </head>
   <body>
-    <div style="text-align: center">
-      <img src="pic/logo1.jpg" alt="Abossss" width="100" height="100" />
-      <div id="typewriter"></div>
-      <!-- 这里将用于显示打字机效果 -->
-      <script type="text/javascript" src="js/typewriter.js"></script>
-      <!-- 确保这个脚本文件已经包含了打字机效果的实现 -->
-      <p>你好</p>
-      <p>我是Abossss</p>
-      <p class="qd">这里是智能巨构-IntelMacro官方（正在建设中）</p>
-      <!-- 注意修正了类名末尾多了一个'a' -->
-      <p>欢迎访问</p>
-      <p>本博客由<a href="https://github.com/">GitHub</a>托管</p>
+    <div class="container" style="text-align: center">
+      <!--以下内容剧中显示-->
+      <img
+        src="pic/logo1.jpg"
+        alt="Abossss"
+        width="100"
+        height="100"
+      /><!--LOGO-->
+      <div class="typewriter-frame">
+        <!--打字机效果--->
+        <div id="typewriter"></div>
+      </div>
+
+      <div>
+        <p>你好</p>
+        <p>我是Abossss</p>
+        <p class="qd">这里是智能巨构-IntelMacro官方（正在建设中）</p>
+      </div>
+
+      <audio controls>
+        <source src="music/列车开往那春天.mp3" type="audio/mp3" />
+        您的浏览器不支持 audio 元素。
+      </audio>
+      <footer>
+        <div class="footer-content">
+          <p>欢迎访问</p>
+          <p>本博客由<a href="https://github.com/">GitHub</a>托管</p>
+          <p>版权所有 &copy; 2023 智能巨构-InterMacro。保留所有权利。</p>
+          <nav></nav>
+          <div class="social-links">
+            <a href="#" target="_blank"
+              ><img src="facebook.png" alt="Facebook"
+            /></a>
+            <a href="#" target="_blank"
+              ><img src="twitter.png" alt="Twitter"
+            /></a>
+            <a href="#" target="_blank"
+              ><img src="instagram.png" alt="Instagram"
+            /></a>
+          </div>
+        </div>
+      </footer>
     </div>
+    <!--以上内容剧中显示-->
+
+    <!-- 确保在DOM元素加载完成后才执行脚本 -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="text/javascript" src="js/typewriter.js"></script>
   </body>
 </html>

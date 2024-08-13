@@ -1,0 +1,9 @@
+.typewriter-frame {
+  border: 2px solid #000; /* 边框颜色 */
+  border-radius: 5px; /* 边框圆角 */
+  padding: 20px; /* 内边距 */
+  margin: 20px auto; /* 外边距，并使其水平居中 */
+  max-width: 600px; /* 最大宽度 */
+  background-color: #f9f9f9; /* 背景颜色 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
